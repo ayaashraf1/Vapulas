@@ -1,0 +1,79 @@
+h2{
+color:rgb(172, 170, 170);
+}
+hr.hrStyle{
+    border-color:rgb(37, 192, 240);
+}
+img{
+    border-radius: 50%;
+    width:150px;
+    height:150px;
+    margin:0 auto;
+}
+input{
+    margin: 0 auto;
+}
+label
+{
+  font-size:20px;
+  color:gray;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(37, 192, 240);
+}
+input[type=number] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(37, 192, 240);
+}
+button{
+    text-align: center;
+    padding:1% 5%;
+    border-radius: 10px;
+    width:400px;
+    margin:auto;
+    border:none;
+    display: block;
+}
+#add{
+background-color: rgb(90, 180, 101);
+color:white;
+font-size: 180%;
+}
+#cancel{
+    background-color: rgb(27, 70, 190);
+    color:white;
+    font-size: 180%;
+}
+* ,input[type="text"]{
+    margin-left: 2%;
+}
+.container
+{
+    border:1px rgb(218, 215, 215) solid;
+}
+.m{
+    margin-left:20px;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration:none;
+}

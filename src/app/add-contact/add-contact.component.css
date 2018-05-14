@@ -1,0 +1,13 @@
+button{
+ width:100%;
+ background-color:rgb(248, 247, 247);
+ text-align: left;
+ color:grey;
+ background-image:url('../../assets/images/plus.png');
+ background-position: 1010px 0px;
+ background-repeat: no-repeat;
+}
+.background
+{
+  width:80%;
+}

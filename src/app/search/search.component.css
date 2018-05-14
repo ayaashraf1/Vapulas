@@ -1,0 +1,16 @@
+input{
+    border-radius:20px;
+    width : 100%;
+    padding :2.5%;
+    text-align: center;
+    background-image: url('../../assets/images/searchIcon.png');
+    background-position: 450px 6px; 
+    background-repeat: no-repeat;
+}
+.background
+{
+    border :6px rgb(223, 218, 218) solid;
+    background-color:rgb(223, 218, 218) ;
+    border-radius:20px 20px 0  0;
+    width:80%;
+}

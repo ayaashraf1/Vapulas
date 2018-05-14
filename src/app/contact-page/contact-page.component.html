@@ -1,0 +1,105 @@
+<app-search></app-search>
+<app-add-contact></app-add-contact>
+<h3>Latest Contacts</h3>
+<app-contact [arr]="a" *ngFor="let a of contact"></app-contact>
+<!-- <app-alphabetic-filter></app-alphabetic-filter> -->
+<div class="container">
+    <div class="letter">
+        <span>
+            <b>A</b>
+        </span>
+        <a href="#Asection">
+            <span class="letterFilter">A</span>
+        </a>
+        <p class="clear"></p>
+    </div>
+    <div class="row">
+        <div class="col-md-10" id="Asection">
+            <app-contact [arr]="a" *ngFor="let a of contactA"></app-contact>
+            <div class="letter" id="Bsection">
+                    <span>
+                        <b>B</b>
+                    </span>
+            </div>
+            <app-contact [arr]="a" *ngFor="let a of contactB"></app-contact>
+        </div>
+        <div class="col-md-1">
+            <a href="#Bsection">
+                <span class="otherLetter">B</span>
+            </a>
+            <a href="">
+                <span class="otherLetter">C</span>
+            </a>
+            <a href="">
+                <span class="otherLetter">D</span>
+            </a>
+            <a href="">
+                <span class="otherLetter">E</span>
+            </a>
+            <a href="">
+                <span class="otherLetter">F</span>
+            </a>
+            <a href="">
+                <span class="otherLetter">G</span>
+            </a>
+            <a href="">
+                <span class="otherLetter">H</span>
+            </a>
+            <a href="">
+                <span class="otherLetter">I</span>
+            </a>
+            <a href="">
+                <span class="otherLetter">J</span>
+            </a>
+            <a href="">
+                <span class="otherLetter">K</span>
+            </a>
+            <a href="">
+                <span class="otherLetter">L</span>
+            </a>
+            <a href="">
+                <span class="otherLetter">M</span>
+            </a>
+            <a href="">
+                <span class="otherLetter">N</span>
+            </a>
+            <a href="">
+                <span class="otherLetter">O</span>
+            </a>
+            <a href="">
+                <span class="otherLetter">P</span>
+            </a>
+            <a href="">
+                <span class="otherLetter">Q</span>
+            </a>
+            <a href="">
+                <span class="otherLetter">R</span>
+            </a>
+            <a href="">
+                <span class="otherLetter">S</span>
+            </a>
+            <a href="">
+                <span class="otherLetter">T</span>
+            </a>
+            <a href="">
+                <span class="otherLetter">U</span>
+            </a>
+            <a href="">
+                <span class="otherLetter">V</span>
+            </a>
+            <a href="">
+                <span class="otherLetter">W</span>
+            </a>
+            <a href="">
+                <span class="otherLetter">X</span>
+            </a>
+            <a href="">
+                <span class="otherLetter">Y</span>
+            </a>
+            <a href="">
+                <span class="otherLetter">Z</span>
+            </a>
+        </div>
+        <p class="clear"></p>
+    </div>
+</div>

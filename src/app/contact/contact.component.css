@@ -1,0 +1,18 @@
+img{
+    border-radius: 50%;
+    width:70px;
+    height:70px;
+    margin-left: 8%;
+}
+div{
+    vertical-align: middle;
+    display: inline-block;
+}
+span{
+    color:gray;
+    font-size: 150%;
+}
+hr.hrClass
+{
+    margin-left: 8%;
+}

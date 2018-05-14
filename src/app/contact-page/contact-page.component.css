@@ -1,0 +1,28 @@
+h3{
+    margin-left: 8%;
+}
+.letter
+{
+    background-color: rgb(231, 228, 228);
+    padding:0.5%;
+    font-size:150%;
+}
+.letterFilter
+{
+    color:grey;
+   float:right;
+   
+}
+.otherLetter{
+    display:block;
+    color:grey;
+    font-size:150%;
+    margin-left:140px;
+}
+.clear{
+    clear: both;
+}
+a{
+    text-decoration: none;
+    color:black;
+}

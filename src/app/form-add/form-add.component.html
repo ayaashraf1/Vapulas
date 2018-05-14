@@ -1,0 +1,64 @@
+<div class="container">
+<div class="row">
+    <div class="col-md-12">
+<h2> Add A New Contact</h2>
+</div>
+</div>
+<hr class="hrStyle" />
+<div class="row">
+<div class="col-md-12">
+<img id="blah" src="../assets/images/defaultImg.jpg" alt="your image" class="img-responsive" />
+</div>
+<div class="col-md-12">
+<input type='file' onchange="readURL(this);" />
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<label> First Name</label>
+</div>
+<div class="col-md-11">
+<input type="text" id="fname" name="fname" [(ngModel)]="fname" />
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<label> Last Name</label>
+</div>
+<div class="col-md-11">
+<input type="text" id="lname" name="lname" [(ngModel)]="lname" />
+</div>
+</div>
+<div class="row">
+<div class="col-md-3">
+<label class="m">+44</label>
+</div>
+<div class="col-md-8">
+<label>567 2249</label>
+</div>
+</div>
+<div class="row">
+<div class="col-md-3">
+    <input type="number" name="code" min="1" max="50"  style="margin-left:20px"  [(ngModel)]="code"/>
+</div>
+<div class="col-md-8">
+    <input type="text" name="phone" [(ngModel)]="phone" />
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<label> Email Address</label>
+</div>
+<div class="col-md-11">
+<input type="text" id="email" name="email" [(ngModel)]="email" />
+</div>
+</div><br>
+<div class="row">
+<div class="col-md-12">
+<a routerLink='/'><button id="add" (click)="add()">Add Contact</button></a>
+</div>
+<div class="col-md-12">
+<a routerLink='/'><button id="cancel">Cancel</button></a>
+</div>
+</div>
+</div>
